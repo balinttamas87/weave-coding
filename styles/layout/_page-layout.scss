@@ -1,0 +1,81 @@
+ul {
+    list-style-type: none;
+}
+h2 {
+    text-align: center;
+}
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#search-form {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.login {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.main-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-bottom-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.map-and-brochure-request-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.map {
+    flex-grow: 1;
+}
+.brochure-request-form {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+.names-and-dob-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.email-and-submit-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.select-dob-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.methods-of-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.method-of-contact {
+    text-align: center;
+}
+.method-of-contact {
+    width: 32%;
+    height: 176px;
+}
+
+
+
+
+
+
+
+
