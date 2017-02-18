@@ -7,4 +7,7 @@
 	letter-spacing: 1px;
 	display: flex;
 	background: linear-gradient($btn-gradient-start, $btn-gradient-end);
+	&:hover {
+		opacity: 0.8;
+	}
 }

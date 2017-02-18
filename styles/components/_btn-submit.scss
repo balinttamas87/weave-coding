@@ -9,4 +9,7 @@
 	background: linear-gradient($btn-submit-gradient-start, $btn-submit-gradient-end);
 	align-self: center;
 	margin-top: 4px;
+	&:hover {
+		opacity: 0.8;
+	}
 }
