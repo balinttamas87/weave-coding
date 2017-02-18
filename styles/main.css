@@ -116,6 +116,14 @@ footer {
   align-self: center;
   margin-top: 4px; }
 
+label[for="first-name"],
+label[for="last-name"],
+label[for="email"],
+label[for="confirm-email"],
+label[for="date-of-birth"] {
+  color: #767676;
+  font-size: 1.1rem; }
+
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;

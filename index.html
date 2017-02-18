@@ -63,15 +63,15 @@
 					
 					<div class="names-and-dob-container">
 						<label for="first-name">First Name</label>
-						<input type="text" id="first-name">
+						<input type="text" id="first-name" required>
 						
 						<label for="last-name">Last Name</label>
-						<input type="text" id="last-name">
+						<input type="text" id="last-name" required>
 
 						<label for="date-of-birth">Date fo Birth</label>
 						
 						<div class="select-dob-container">
-							<select name="dob-day" id="dob-day">
+							<select name="dob-day" id="dob-day" required>
 								<option value="">Day</option>
 							    <option value="">---</option>
 							    <option value="01">01</option>
@@ -106,7 +106,7 @@
 								<option value="30">30</option>
 								<option value="31">31</option>
 							</select>
-							<select name="dob-month" id="dob-month">
+							<select name="dob-month" id="dob-month" required>
 								<option value="">Month</option>
 							    <option value="">-----</option>
 								<option value="01">January</option>
@@ -122,7 +122,7 @@
 								<option value="11">November</option>
 								<option value="12">December</option>
 							</select>
-							<select name="dob-year" id="dob-year">
+							<select name="dob-year" id="dob-year" required>
 								<option value="">Year</option>
 			    				<option value="">----</option>
 								<option value="2012">2012</option>
@@ -243,10 +243,10 @@
 
 					<div class="email-and-submit-container">
 						<label for="email">Email</label>
-						<input type="email" id="email">
+						<input type="email" id="email" required>
 
 						<label for="confirm-email">Confirm Email</label>
-						<input type="email" id="confirm-email">
+						<input type="email" id="confirm-email" required>
 
 						<input type="submit" name="submit" value="Submit">
 					</div>
