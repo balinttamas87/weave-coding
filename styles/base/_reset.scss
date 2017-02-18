@@ -5,6 +5,7 @@
 }
 a {
 	text-decoration: none;
+	color: $font-base-color;
 }
 a, button {
 	cursor: pointer;
@@ -14,4 +15,10 @@ button:focus, a:focus {
 }
 a:visited {
 	color: $font-base-color;
+}
+input {
+	border: 0;
+	&:focus {
+		outline: none;
+	}
 }

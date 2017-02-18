@@ -1,3 +1,6 @@
+main {
+    padding: 0 20px 0 20px;
+}
 ul {
     list-style-type: none;
 }
@@ -17,6 +20,7 @@ h2 {
 }
 input[type="search"] {
     width: 420px;
+    height: 38px;
 }
 .login {
     display: flex;
@@ -38,15 +42,17 @@ input[type="search"] {
 .map-and-brochure-request-form-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .map {
-    flex-grow: 1;
+    padding: 8px;
 }
 .brochure-request-form {
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 .names-and-dob-container {
     display: flex;
@@ -68,7 +74,8 @@ input[type="search"] {
 .methods-of-contact-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 35px;
 }
 .method-of-contact {
     text-align: center;
