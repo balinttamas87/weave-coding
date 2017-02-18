@@ -27,6 +27,8 @@ input[type="search"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 1rem;
+    background-color: $secondary-color;
 }
 .footer-bottom-list {
     display: flex;

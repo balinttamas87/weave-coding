@@ -16,7 +16,8 @@ a:visited {
   color: #000; }
 
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  font-size: 16px; }
 
 .container {
   border-radius: 10px;
@@ -26,6 +27,17 @@ body {
 .btn-method-of-contact {
   border-radius: 10px;
   background-color: #FC8532; }
+
+.main-nav-list-item a {
+  font-size: 1.1rem;
+  font-weight: 500; }
+  .main-nav-list-item a:hover {
+    color: #FC8532;
+    text-decoration: underline; }
+
+.main-nav-list .divider {
+  font-size: 1.4rem;
+  font-weight: 500; }
 
 .sprite {
   background-image: url(../images/weave-sprite.png);
@@ -105,7 +117,9 @@ input[type="search"] {
 .main-nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #EBEBEB; }
 
 .footer-bottom-list {
   display: flex;

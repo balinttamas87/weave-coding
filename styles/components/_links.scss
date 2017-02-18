@@ -1,0 +1,8 @@
+.main-nav-list-item a {
+	font-size: 1.1rem;
+	font-weight: 500;
+	&:hover {
+		color: $primary-color;
+		text-decoration: underline;
+	}
+}
