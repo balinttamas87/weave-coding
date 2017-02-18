@@ -9,6 +9,7 @@ a {
 }
 a, button {
 	cursor: pointer;
+	border: 0;
 }
 button:focus, a:focus {
 	outline:none;

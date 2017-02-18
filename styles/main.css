@@ -8,7 +8,8 @@ a {
   color: #000; }
 
 a, button {
-  cursor: pointer; }
+  cursor: pointer;
+  border: 0; }
 
 button:focus, a:focus {
   outline: none; }
@@ -32,7 +33,14 @@ body {
 
 .btn-method-of-contact {
   border-radius: 10px;
-  background-color: #FC8532; }
+  background-color: #FC8532;
+  padding: 5px 20px 5px 40px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  background: linear-gradient(#FD9C47, #FD6F25); }
 
 .main-nav-list-item a {
   font-size: 1.1rem;
@@ -91,6 +99,10 @@ footer {
 .footer-bottom {
   height: 235px;
   padding: 0 20px 0 20px; }
+
+.method-of-contact p {
+  padding-top: 35px;
+  padding-bottom: 30px; }
 
 .sprite {
   background-image: url(../images/weave-sprite.png);
@@ -224,11 +236,17 @@ input[type="search"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 35px; }
+  padding: 35px 0 35px 0; }
 
 .method-of-contact {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 350;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .method-of-contact {
   width: 32%;
-  height: 176px; }
+  height: 200px; }
