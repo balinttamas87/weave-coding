@@ -71,8 +71,8 @@ gulp.task("scripts", () => {
 ///////////////////////
 
 gulp.task("watch", () => {
-	gulp.watch("styles/main.scss", ["styles"]);
-	gulp.watch("styles/main.scss", ["styles2"]);
+	gulp.watch("styles/**/*.scss", ["styles"]);
+	gulp.watch("styles/**/*.scss", ["styles2"]);
 	gulp.watch("index.html");
 	gulp.watch("scripts/main.js", ["scripts"]);
 });
