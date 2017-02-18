@@ -93,7 +93,8 @@ h2 {
     padding: 0; }
 
 footer {
-  color: #fff; }
+  color: #fff;
+  background-color: #363636; }
 
 .footer-bottom {
   height: 235px;
@@ -112,7 +113,8 @@ footer {
   letter-spacing: 1px;
   display: flex;
   background: linear-gradient(#55EF2C, #2EB922);
-  align-self: center; }
+  align-self: center;
+  margin-top: 4px; }
 
 .sprite {
   background-image: url(../images/weave-sprite.png);
@@ -173,9 +175,6 @@ ul {
 h2 {
   text-align: center; }
 
-footer {
-  background-color: #363636; }
-
 .header-top {
   display: flex;
   flex-direction: row;
@@ -229,7 +228,8 @@ input[type="search"] {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-right: 20px; }
 
 .email-and-submit-container {
   display: flex;

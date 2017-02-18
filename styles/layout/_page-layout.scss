@@ -7,9 +7,6 @@ ul {
 h2 {
     text-align: center;
 }
-footer {
-    background-color: #363636;
-}
 .header-top {
     display: flex;
     flex-direction: row;
@@ -65,6 +62,7 @@ input[type="search"] {
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-around;
+    margin-right: 20px;
 }
 .email-and-submit-container {
     display: flex;
