@@ -12,3 +12,6 @@ a, button {
 button:focus, a:focus {
 	outline:none;
 }
+a:visited {
+	color: $font-base-color;
+}
