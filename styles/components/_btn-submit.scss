@@ -1,0 +1,11 @@
+.email-and-submit-container input[type="submit"] {
+	border-radius: 10px;
+	padding: 13px 47px 13px 47px;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	display: flex;
+	background: linear-gradient($btn-submit-gradient-start, $btn-submit-gradient-end);
+	align-self: center;
+}

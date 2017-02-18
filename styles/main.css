@@ -33,7 +33,6 @@ body {
 
 .btn-method-of-contact {
   border-radius: 10px;
-  background-color: #FC8532;
   padding: 5px 20px 5px 40px;
   color: #fff;
   font-size: 1.8rem;
@@ -103,6 +102,17 @@ footer {
 .method-of-contact p {
   padding-top: 35px;
   padding-bottom: 30px; }
+
+.email-and-submit-container input[type="submit"] {
+  border-radius: 10px;
+  padding: 13px 47px 13px 47px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  background: linear-gradient(#55EF2C, #2EB922);
+  align-self: center; }
 
 .sprite {
   background-image: url(../images/weave-sprite.png);
