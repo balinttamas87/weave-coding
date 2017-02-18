@@ -7,6 +7,9 @@ ul {
 h2 {
     text-align: center;
 }
+footer {
+    background-color: #363636;
+}
 .header-top {
     display: flex;
     flex-direction: row;
@@ -38,6 +41,9 @@ input[type="search"] {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 40px 0 40px 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid white;
 }
 .map-and-brochure-request-form-container {
     display: flex;
