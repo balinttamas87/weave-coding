@@ -347,15 +347,7 @@ input[type="search"] {
       visibility: hidden; } }
 
 @media only screen and (max-width: 410px) {
-  .sprite-logo {
-    display: none; }
-  div.logo {
-    height: 50px;
-    min-width: 100%;
-    background-image: url("../images/logo.png"); }
-  #search-form {
-    padding-top: 20px; }
-    #search-form input {
-      width: 260px; }
-      #search-form input:focus {
-        width: 260px; } }
+  #search-form input {
+    width: 260px; }
+    #search-form input:focus {
+      width: 260px; } }
