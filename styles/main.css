@@ -132,6 +132,12 @@ label[for="date-of-birth"] {
 button .sprite {
   margin-top: -7px; }
 
+.sprite-settings {
+  transition: transform 0.8s ease-out; }
+  .sprite-settings:hover {
+    transform: rotate(90deg);
+    cursor: pointer; }
+
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;
