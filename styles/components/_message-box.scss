@@ -1,0 +1,28 @@
+.contact-banner-wrapper {
+	position: relative;
+	& .container {
+		//width: 31.25%;
+		position: absolute;
+		top: 40px;
+		left: 20px;
+		width: 400px;
+		height: 180px;
+		border: 6px solid #FC6621;
+	}
+	p {
+		letter-spacing: 0.5px;
+		color: black;
+		&:nth-child(1) {
+			font-size: 1.6rem;
+			letter-spacing: 0.5px;
+			padding-top: 40px;
+			padding-left: 25px;
+		}
+		&:nth-child(2) {
+			font-size: 3.8rem;
+
+			font-weight: 500;
+			padding-left: 20px;
+		}
+	}
+}

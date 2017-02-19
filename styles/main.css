@@ -138,6 +138,28 @@ button .sprite {
     transform: rotate(90deg);
     cursor: pointer; }
 
+.contact-banner-wrapper {
+  position: relative; }
+  .contact-banner-wrapper .container {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 400px;
+    height: 180px;
+    border: 6px solid #FC6621; }
+  .contact-banner-wrapper p {
+    letter-spacing: 0.5px;
+    color: black; }
+    .contact-banner-wrapper p:nth-child(1) {
+      font-size: 1.6rem;
+      letter-spacing: 0.5px;
+      padding-top: 40px;
+      padding-left: 25px; }
+    .contact-banner-wrapper p:nth-child(2) {
+      font-size: 3.8rem;
+      font-weight: 500;
+      padding-left: 20px; }
+
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;
