@@ -192,13 +192,13 @@ h2 {
 
 .header-top {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   padding: 15px 20px 25px 20px; }
 
 #search-form {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-self: center; }
 
 input[type="search"] {
@@ -207,19 +207,19 @@ input[type="search"] {
 
 .login {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-self: center; }
 
 .main-nav-list {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-around;
   padding: 1rem;
   background-color: #EBEBEB; }
 
 .footer-bottom-list {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   padding: 40px 0 40px 0;
   font-size: 0.8rem;
@@ -227,7 +227,7 @@ input[type="search"] {
 
 .map-and-brochure-request-form-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between; }
 
 .map {
@@ -235,31 +235,31 @@ input[type="search"] {
 
 .brochure-request-form {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   padding-left: 25px;
   padding-right: 25px; }
 
 .names-and-dob-container {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   flex-grow: 1;
   justify-content: space-around;
   margin-right: 20px; }
 
 .email-and-submit-container {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   flex-grow: 1;
   justify-content: space-around; }
 
 .select-dob-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between; }
 
 .methods-of-contact-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   padding: 35px 0 35px 0; }
 
