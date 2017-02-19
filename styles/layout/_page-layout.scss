@@ -15,7 +15,7 @@ h2 {
 }
 #search-form {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-self: center;
 }
 input[type="search"] {

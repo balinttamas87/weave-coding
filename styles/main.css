@@ -88,8 +88,8 @@ h2 {
   margin-right: 10px;
   font-size: 1rem; }
   #search-form input:focus {
-    border: 1px solid black;
-    width: 50%;
+    border: 1px solid #FC8532;
+    width: 420px;
     height: 38px;
     margin-right: 10px;
     padding: 0; }
@@ -134,7 +134,8 @@ button .sprite {
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;
-  display: block; }
+  display: block;
+  max-width: 100%; }
 
 .header-contact-banner-image {
   width: 1280px;
@@ -198,7 +199,7 @@ h2 {
 
 #search-form {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-self: center; }
 
 input[type="search"] {
@@ -275,3 +276,72 @@ input[type="search"] {
 .method-of-contact {
   width: 32%;
   height: 200px; }
+
+@media only screen and (max-width: 1059px) {
+  .login {
+    padding-top: 10px;
+    padding-left: calc((360px - 199.22px) / 2); } }
+
+@media only screen and (max-width: 859px) {
+  #search-form {
+    padding-top: 20px; }
+    #search-form input {
+      width: 320px; }
+      #search-form input:focus {
+        width: 320px; } }
+
+@media only screen and (max-width: 1209px) {
+  .map-and-brochure-request-form-container {
+    flex-wrap: wrap-reverse;
+    justify-content: center; }
+  .map {
+    margin-top: 35px; }
+  #btn-submit {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .names-and-dob-container {
+    margin: 11px 20px 20px auto; }
+  .email-and-submit-container {
+    margin: 20px auto 20px auto; } }
+
+@media only screen and (max-width: 945px) {
+  .method-of-contact p {
+    font-size: 0.8em; } }
+
+@media only screen and (max-width: 811px) {
+  .names-and-dob-container {
+    align-items: center; }
+  .email-and-submit-container {
+    align-items: center; } }
+
+@media only screen and (max-width: 775px) {
+  .method-of-contact p {
+    font-size: 0.6em; } }
+
+@media only screen and (max-width: 700px) {
+  .methods-of-contact-container {
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: space-around; }
+  .method-of-contact {
+    width: 100%; }
+    .method-of-contact p {
+      font-size: 1.3rem; }
+    .method-of-contact:nth-child(1) {
+      margin-bottom: 35px; }
+    .method-of-contact:nth-child(2) {
+      margin-bottom: 35px; } }
+
+@media only screen and (max-width: 679px) {
+  .header-top {
+    justify-content: center; }
+  .login {
+    padding-left: calc((360px - 199.22px) / 4);
+    padding-right: calc((360px - 199.22px) / 4); } }
+
+@media only screen and (max-width: 494px) {
+  .footer-bottom-list {
+    flex-flow: column wrap;
+    align-items: center; }
+    .footer-bottom-list .divider {
+      visibility: hidden; } }
