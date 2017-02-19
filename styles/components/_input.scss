@@ -5,6 +5,7 @@
 	border-radius: 5px;
 	border: 1px solid #767676;
 	font-size: 1rem;
+	padding-left: 10px;
 	&:focus {
 		border: 1px solid $primary-color;
 	}
@@ -12,6 +13,7 @@
 #search-form input {
 	border: 1px solid black;
 	border-radius: 5px;
+	padding-left: 10px;
 	margin-right: 10px;
 	font-size: 1rem;
 	&:focus {
@@ -19,6 +21,5 @@
 		width: 420px;
 		height: 38px;
 		margin-right: 10px;
-		padding: 0;
 	}
 }
