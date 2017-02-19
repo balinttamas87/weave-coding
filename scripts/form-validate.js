@@ -14,6 +14,8 @@
 	var $brochureRequestEmail = document.getElementById("email");
 	var $brochureRequestEmailConfirm = document.getElementById("confirm-email");
 
+	var $brochureRequestForm = document.getElementById("brochure-requets-form");
+
 	var inputs = {
   		firstName: $brochureRequestFirstName,
   		lastName: $brochureRequestLastName,
@@ -59,5 +61,25 @@
 	function validateEmailConfirm (inputs) {
 		return inputs.email.value === inputs.emailConfirm.value;
 	}
+
+	window.onload = function () {
+  		$brochureRequestForm.setAttribute("novalidate", true);
+  	};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })();
