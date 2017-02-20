@@ -63,8 +63,10 @@
 					<img src="images/img-transparent.gif" alt="map-of-office" class="sprite sprite-map-holder">
 				</section>
 
-				<form action="" class="brochure-request-form container">
+				<form action="" id="brochure-request-form" class="brochure-request-form container">
 					
+					<span id="form-message" data-message=""></span>
+
 					<div class="names-and-dob-container">
 						<label for="first-name">First Name</label>
 						<input type="text" id="first-name" required>
@@ -306,5 +308,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+	<script src="scripts/form-validate.min.js"></script>
 </body>
 </html>

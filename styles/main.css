@@ -160,6 +160,9 @@ button .sprite {
       font-weight: 500;
       padding-left: 20px; }
 
+.form-error {
+  border: 1px solid red !important; }
+
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;
