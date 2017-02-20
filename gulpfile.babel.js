@@ -32,7 +32,7 @@ gulp.task('browser-sync', function() {
     
     gulp.watch("styles/main.min.css").on("change", reload);
     gulp.watch("index.html").on("change", reload);
-    gulp.watch("scripts/main.min.js").on("change", reload);
+    gulp.watch("scripts/form-validate.min.js").on("change", reload);
 });
 
 ///////////////////////
@@ -60,9 +60,9 @@ gulp.task("styles2", () => {
 ///////////////////////
 
 gulp.task("scripts", () => {
-	return gulp.src("scripts/main.js")
+	return gulp.src("scripts/form-validate.js")
 		.pipe(uglify())
-		.pipe(rename("main.min.js"))
+		.pipe(rename("form-validate.min.js"))
 		.pipe(gulp.dest("scripts/"))
 });
 
@@ -74,7 +74,7 @@ gulp.task("watch", () => {
 	gulp.watch("styles/**/*.scss", ["styles"]);
 	gulp.watch("styles/**/*.scss", ["styles2"]);
 	gulp.watch("index.html");
-	gulp.watch("scripts/main.js", ["scripts"]);
+	gulp.watch("scripts/form-validate.js", ["scripts"]);
 });
 
 ///////////////////////
