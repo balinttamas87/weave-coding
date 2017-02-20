@@ -111,6 +111,23 @@
 		}
 	}
 }
+@media only screen and (max-width: 430px) {
+	.sprite-logo {
+		display: none;
+	}
+	.brochure-request-form input[type="text"] {
+		max-width: 90%;
+	}
+	.brochure-request-form input[type="email"] {
+		max-width: 90%;
+	}
+	.brochure-request-form {
+		max-width: 100%;
+	}
+	.map {
+		max-width: 100%;
+	}
+}
 @media only screen and (max-width: 410px) {
 	#search-form input {
 		width: 260px;
