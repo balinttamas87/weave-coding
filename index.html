@@ -60,7 +60,8 @@
 			<h2>Send us your details to request our latest brochure</h2>
 			<div class="map-and-brochure-request-form-container">
 				<section class="map container">
-					<img src="images/img-transparent.gif" alt="map-of-office" class="sprite sprite-map-holder">
+					<div id="map"></div>
+					<!-- <img src="images/img-transparent.gif" alt="map-of-office" class="sprite sprite-map-holder"> -->
 				</section>
 
 				<form action="" id="brochure-request-form" class="brochure-request-form container">
@@ -308,7 +309,12 @@
 			</div>
 		</footer>
 	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
 	<script src="scripts/form-validate.min.js"></script>
+	<script src="scripts/map.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCm6VMubg_rQOZywwB_wuqPK06dFPCJE&callback=initMap">
+	</script>
+
 </body>
 </html>

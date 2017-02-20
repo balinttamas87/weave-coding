@@ -166,6 +166,10 @@ button .sprite {
 .form-error {
   border: 1px solid red !important; }
 
+#map {
+  width: 380px;
+  height: 300px; }
+
 .sprite {
   background-image: url(../images/weave-sprite.png);
   background-repeat: no-repeat;
