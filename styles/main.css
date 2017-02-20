@@ -147,7 +147,8 @@ button .sprite {
     position: absolute;
     top: 40px;
     left: 20px;
-    width: 400px;
+    width: 31.25%;
+    min-width: 290px;
     height: 180px;
     border: 6px solid #FC6621; }
   .contact-banner-wrapper p {
@@ -316,19 +317,6 @@ input[type="search"] {
   width: 32%;
   height: 200px; }
 
-@media only screen and (max-width: 1059px) {
-  .login {
-    padding-top: 10px;
-    padding-left: calc((360px - 199.22px) / 2); } }
-
-@media only screen and (max-width: 859px) {
-  #search-form {
-    padding-top: 20px; }
-    #search-form input {
-      width: 320px; }
-      #search-form input:focus {
-        width: 320px; } }
-
 @media only screen and (max-width: 1209px) {
   .map-and-brochure-request-form-container {
     flex-wrap: wrap-reverse;
@@ -343,9 +331,34 @@ input[type="search"] {
   .email-and-submit-container {
     margin: 20px auto 20px auto; } }
 
+@media only screen and (max-width: 1128px) {
+  .contact-banner-wrapper p:nth-child(1) {
+    font-size: 1.2rem; }
+  .contact-banner-wrapper p:nth-child(2) {
+    font-size: 3.4rem; } }
+
+@media only screen and (max-width: 1059px) {
+  .login {
+    padding-top: 10px;
+    padding-left: calc((360px - 199.22px) / 2); } }
+
+@media only screen and (max-width: 1040px) {
+  .contact-banner-wrapper p:nth-child(1) {
+    font-size: 1rem; }
+  .contact-banner-wrapper p:nth-child(2) {
+    font-size: 3rem; } }
+
 @media only screen and (max-width: 945px) {
   .method-of-contact p {
     font-size: 0.8em; } }
+
+@media only screen and (max-width: 859px) {
+  #search-form {
+    padding-top: 20px; }
+    #search-form input {
+      width: 320px; }
+      #search-form input:focus {
+        width: 320px; } }
 
 @media only screen and (max-width: 811px) {
   .names-and-dob-container {
